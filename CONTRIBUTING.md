@@ -37,3 +37,13 @@ Examples:
 All changes must be submitted through a Pull Request. Do not push changes directly to `main`.
 
 Before merging, the Pull Request must be reviewed and receive at least one approval. Address requested changes before merging.
+
+### Optional scope
+
+A scope can be added in parentheses after the commit type to identify the part of the project affected by the change. The scope is optional.
+
+Examples:
+
+- `docs(readme): clarify setup instructions`
+- `feat(search): add search functionality`
+- `fix: correct installation instructions`

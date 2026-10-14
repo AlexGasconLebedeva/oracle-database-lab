@@ -1,13 +1,39 @@
-# Contributing to oracle-database-lab
+# Contributing Guidelines
 
-## Branch naming
-<type>/<issue number>-<short-description>, e.g. feature/56-customer-search, fix/85-customer-email-validation
+## Branch naming convention
 
-## Commit messages
-This project follows Conventional Commits:
-<type>(scope): <description>
+Create a separate branch for each issue or task. Use a prefix that describes the type of work, followed by the issue number and a short description.
 
-Common types: feat, fix, docs, test, refactor, perf, build, ci, chore
+Examples:
 
-## Pull Requests
-Every change must go through a Pull Request with at least one approval before merging into main.
+- `docs/1-contribution-guidelines`
+- `feat/2-add-search`
+- `fix/3-correct-readme`
+
+## Commit message convention
+
+Use Conventional Commits for commit messages.
+
+The general format is:
+
+`type: short description`
+
+Common types include:
+
+- `feat`: a new feature
+- `fix`: a bug fix
+- `docs`: documentation changes
+- `test`: adding or updating tests
+- `refactor`: code changes that do not add features or fix bugs
+
+Examples:
+
+- `docs: add contribution guidelines`
+- `fix: correct installation instructions`
+- `feat: add search functionality`
+
+## Pull Request requirement
+
+All changes must be submitted through a Pull Request. Do not push changes directly to `main`.
+
+Before merging, the Pull Request must be reviewed and receive at least one approval. Address requested changes before merging.

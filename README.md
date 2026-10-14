@@ -3,5 +3,12 @@
 Training repository for Oracle Database administration,
 testing, change management and Git workflows.
 
-Name: Alexander Flavio Gascon Lebedeva 
+Name: Alexander Flavio Gascon Lebedeva
 Professor: Richard Aviles Lopez
+
+## Contributing
+
+
+
+Please read our \[Contributing Guidelines](CONTRIBUTING.md) before submitting changes.
+
